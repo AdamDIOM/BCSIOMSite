@@ -18,7 +18,7 @@ export default function Header(){
                             <Nav.Link href="/"><b>Home</b></Nav.Link>
                             <b><NavDropdown title="About Us" id="basic-nav-dropdown">
                                 <NavDropdown.Item href="/about-us">
-                                    About Us
+                                    About us
                                 </NavDropdown.Item>
                                 <NavDropdown.Item href="/committee">
                                     The Committee
