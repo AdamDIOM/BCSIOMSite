@@ -6,3 +6,27 @@
     width:auto;
     margin-bottom:20px;
 }
+
+.accordion, .accordion-button, .accordion-button:focus, .accordion-button:not(.collapsed){
+    background-color: var(--primary-75);
+    box-shadow: none;
+}
+
+
+.accordion-collapse::after{
+    height:10px;
+    background-color: var(--primary-75);
+    width:100%;
+    display:block;
+    content: "";
+}
+
+.accordion .btn{
+    background-color: var(--primary-25);
+    color:black;
+    border-color:var(--primary-75);
+}
+
+.accordion .btn:hover{
+    background-color:var(--primary-50);
+}

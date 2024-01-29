@@ -1,16 +1,16 @@
-import { Container } from "react-bootstrap";
 import "./Main.css";
 import Router from "../Router/Router";
+import React from "react";
 
 export default function Main(){
     // const variables go here
     // async functions go here
 
     return(
-        <Container className="main">
-            <Container className="content">
+        <React.Fragment>
+            <div className="main">
                 <Router />  
-            </Container>
-        </Container>
+            </div>
+        </React.Fragment>
     )
 }
