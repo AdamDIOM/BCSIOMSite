@@ -19,7 +19,7 @@ export default function Header(){
                         </Offcanvas.Header>
                         <Nav className="">
                             <Nav.Link href="/"><b>Home</b></Nav.Link>
-                            <b><NavDropdown title="About Us" id="basic-nav-dropdown">
+                            <b><NavDropdown title="About us" id="basic-nav-dropdown">
                                 <NavDropdown.Item href="/about-us">
                                     About us
                                 </NavDropdown.Item>
