@@ -4,6 +4,7 @@ import React from "react";
 import data from './committee.json'
 
 export default function Committee(){
+    document.title = "The Committee | BCS Isle of Man Section"
 
     function CommitteeMember(props) {
         return (

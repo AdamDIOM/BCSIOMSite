@@ -3,6 +3,7 @@ import "./Events.css";
 import React from "react";
 
 export default function Events(){
+    document.title = "Events | BCS Isle of Man Section"
     return(
         <React.Fragment>
             <Container className="content">
