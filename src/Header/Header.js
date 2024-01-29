@@ -9,7 +9,7 @@ export default function Header(){
         <Row className="header">
             <Navbar expand="md">
                 <Container>
-                    <Navbar.Brand href="#">
+                    <Navbar.Brand href="/">
                         <img className="header-logo" src="img/logo.png" alt="BCS Isle of Man Section logo" />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />

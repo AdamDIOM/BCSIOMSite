@@ -14,8 +14,10 @@ export default function Footer(){
                     <a href="https://ti.to/bcs-iom/" rel="noreferrer" target="_blank"><b>Events</b></a>
                 </Col>
                 <Col xs={12}>
-                    <p>BCS Isle of Man is a registered company in the Isle of Man (number 111766C) and an Isle of Man registered charity (number 997)</p>
+                    <p>BCS (Isle of Man) Ltd is a registered company on the Isle of Man (number 111766C) and an Isle of Man registered charity (number 997)</p>
                 </Col>
             </Row>
     )
 }
+
+// events key public_SM1zHab2HbyxdTFw2fKB
