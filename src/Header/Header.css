@@ -33,3 +33,44 @@
 .nav-link:hover{
     background-color:var(--primary);
 }
+
+
+@media screen and (max-width: 768px){
+    .nav-link{
+        margin:5px 0 5px 0;
+        width:90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .navbar-nav{
+        width:100%;
+    }
+    .dropdown-menu {
+        width:90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .offcanvas.offcanvas-end{
+        background-color:var(--primary-25);
+        border-left: var(--primary) 3px solid;
+    }
+
+    .offcanvas-header{
+        background-color:var(--primary-75);
+        height: 15vh;
+    }
+
+    .offcanvas .bottom-text{
+        text-align:center;
+        padding-bottom: 5px;
+        text-wrap:wrap;
+    }
+
+    .bottom-nav .nav-link{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+.navbar-toggler{
+    border:none;
+}
