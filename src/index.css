@@ -31,6 +31,14 @@ h1 {
   color:var(--secondary)
 }
 
+.content {
+  padding:20px 10vw 10vw 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:left;
+  width:100vw;
+}
+
 :root {
   --text-colour: #000000;
   --background: #F1F1F1;

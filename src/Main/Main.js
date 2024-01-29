@@ -8,7 +8,9 @@ export default function Main(){
 
     return(
         <Container className="main">
-            <Router />
+            <Container className="content">
+                <Router />  
+            </Container>
         </Container>
     )
 }

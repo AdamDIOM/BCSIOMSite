@@ -1,0 +1,8 @@
+.chair-headshot img{
+    max-width: 100%;
+    border-radius: 50px;
+    max-height: 30vh;
+    height:auto;
+    width:auto;
+    margin-bottom:20px;
+}
