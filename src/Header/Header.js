@@ -26,9 +26,19 @@ export default function Header(){
                                 <NavDropdown.Item href="/papers">
                                     Papers
                                 </NavDropdown.Item>
-                                {/* <NavDropdown.Divider /> */}
                             </NavDropdown></b>
-                            <Nav.Link href="/events"><b>Events</b></Nav.Link>
+                            <b><NavDropdown title="What's on" id="basic-nav-dropdown">
+                                <NavDropdown.Item href="/events">
+                                    BCS events
+                                </NavDropdown.Item>
+                                <NavDropdown.Item href="/get-online">
+                                    Get Online Centre
+                                </NavDropdown.Item>
+                                <NavDropdown.Divider />
+                                <NavDropdown.Item href="/iom-tech">
+                                    Tech on the Isle of Man
+                                </NavDropdown.Item>
+                            </NavDropdown></b>
                             <Nav.Link href="https://www.bcs.org/membership-and-registrations/become-a-member/"><b>Become a member</b></Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
