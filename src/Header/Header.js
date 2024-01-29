@@ -48,7 +48,7 @@ export default function Header(){
                         <Nav className="justify-content-end flex-grow-1 bottom-nav d-md-none">
                             <Nav.Link href="https://bcs.org"><b>BCS UK</b></Nav.Link>
                             <Nav.Link href="https://www.bcs.org/membership-and-registrations/become-a-member/bcs-code-of-conduct/"><b>BCS Code of Conduct</b></Nav.Link>
-                            <Navbar.Brand className="bottom-text">BCS (Isle of Man) Ltd is a registered company on the Isle of Man (number 111766C) and an Isle of Man registered charity (number 997)</Navbar.Brand>
+                            <Navbar.Brand className="bottom-text"><p>BCS (Isle of Man) Ltd is a registered company on the Isle of Man (number 111766C) and an Isle of Man registered charity (number 997)</p></Navbar.Brand>
                         </Nav>
                     </Navbar.Offcanvas>
                 </Container>
