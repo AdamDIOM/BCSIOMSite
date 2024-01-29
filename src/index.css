@@ -1,13 +1,47 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: 'BCSfont', 'Arial',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "BCSfont";
+  src: url("fonts/DINNextLTPro-Light.woff") format('woff');
+}
+
+
+@font-face {
+  font-family: "BCSfont";
+  src: url("fonts/DINNextLTPro-Regular.woff") format('woff');
+  font-weight: bold;
+}
+
+@font-face{
+  font-family: "BCSbold";
+  src: url("fonts/DINNextLTPro-Bold.woff") format("woff");
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "BCSbold", "Arial", sans-serif;
+}
+
+h1 {
+  color:var(--secondary)
+}
+
+:root {
+  --text-colour: #000000;
+  --background: #F1F1F1;
+
+  --primary: #BCCF00;
+  --primary-25: #EEF3BF;
+  --primary-50: #DDE77F;
+  --primary-75: #CDDB40;
+  
+  --secondary: #006941;
+  --secondary-25: #BFD9CC;
+  --secondary-50: #7FB299;
+  --secondary-75: #408C66;
 }

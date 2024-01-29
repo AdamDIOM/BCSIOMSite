@@ -1,0 +1,18 @@
+.footer{
+    background-color: var(--secondary);
+    color:white;
+    height:100%;
+    min-height:7vh;
+    text-align: center;
+    width:100%;
+    margin:0;
+}
+
+.footerCol, .highlightCol{
+    padding: 1vw;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
