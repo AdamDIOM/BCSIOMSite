@@ -3,10 +3,37 @@
 }
 
 .committee-headshot{
-    max-width: 100%;
+    margin-top:20px;
+    width: 100%;
+    height:100%;
+    object-fit:cover;
     border-radius: 50px;
     max-height: 30vh;
-    height:auto;
     width:auto;
-    margin-bottom:20px;
+    margin-bottom:40px;
+    
+}
+
+a{
+    color:var(--secondary);
+}
+
+.committee-member{
+    clear:both;
+}
+
+.committee-member::after{
+    width:80%;
+    height:1px;
+    content:" ";
+    background-color: var(--secondary);
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:10px;
+    align-self:flex-end;
+}
+
+.vacancy-disclaimer{
+    margin-top:20px;
 }

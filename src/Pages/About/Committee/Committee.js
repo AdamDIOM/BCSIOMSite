@@ -17,14 +17,10 @@ export default function Committee(){
 
     function CommitteeMember(props) {
         return (
-            <Col xs={12} md={6} lg={4} key={props.key} className="text-center">
-                {
-                (props.member.imgname !== "")
-                ? <img src={"/img/committee/" + props.member.imgname + ".png"} alt={"headshot of " + props.member.imgname} className="committee-headshot"/>
-                : <p></p>
-                }
+            <Col xs={12} md={6} lg={4} key={props.key} className="text-center committee-member">
+                <img src={`/img/committee/${(props.member.imgname !== "") ? props.member.imgname : "NoPic"}.png`} alt={"headshot of " + props.member.imgname} className="committee-headshot"/>
                 
-                <h2>{props.member.role}</h2>
+                <h2 className="role-title">{props.member.role}</h2>
                 <p><b>{props.member.name}</b> {props.member.qualifications}</p>
             </Col>
         )
@@ -46,6 +42,9 @@ export default function Committee(){
                             return <CommitteeMember key={"key-" + member.name} member={member} />
                         })
                     }
+                </Row>
+                <Row>
+                    <p className="vacancy-disclaimer">To be considered for any above vacancies, you must be a BCS member and a resident of the Isle of Man; please get in touch with <a href="mailto:groups@bcs.uk">groups@bcs.uk</a> to submit your application for consideration, providing a cover letter and CV.</p>
                 </Row>
             </Container>
         </React.Fragment>
