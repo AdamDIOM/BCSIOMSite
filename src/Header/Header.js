@@ -26,8 +26,8 @@ export default function Header(){
                                 <NavDropdown.Item href="/committee">
                                     The Committee
                                 </NavDropdown.Item>
-                                <NavDropdown.Item href="/papers">
-                                    Papers
+                                <NavDropdown.Item target="_blank" rel="noreferrer" href="https://www.bcs.org/membership-and-registrations/member-communities/isle-of-man-international-section/papers/">
+                                    Papers (bcs.org)
                                 </NavDropdown.Item>
                             </NavDropdown></b>
                             <b><NavDropdown title="What's on" id="basic-nav-dropdown">

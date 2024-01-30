@@ -14,7 +14,6 @@ export default function Router(){
                 <Route path="/events" element={<Events />} />
                 <Route path="/committee" element={<Committee />} />
                 <Route path="/about-us" element={<ComingSoon />} />
-                <Route path="/papers" element={<ComingSoon />} />
                 <Route path="/get-online" element={<ComingSoon />} />
                 <Route path="/iom-tech" element={<ComingSoon />} />
             </Routes>
