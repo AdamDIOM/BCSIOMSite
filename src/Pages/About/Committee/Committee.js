@@ -16,12 +16,15 @@ export default function Committee(){
     }, [])
 
     function CommitteeMember(props) {
+        console.log(props.member.imgname)
         return (
             <Col xs={12} md={6} lg={4} key={props.key} className="text-center committee-member">
                 <img src={`/img/committee/${(props.member.imgname !== "") ? props.member.imgname : "NoPic"}.png`} alt={"headshot of " + props.member.imgname} className="committee-headshot"/>
-                
-                <h2 className="role-title">{props.member.role}</h2>
-                <p><b>{props.member.name}</b> {props.member.qualifications}</p>
+                {(props.member.role != "")
+                ? <h2 className="role-title">{props.member.role}</h2>
+                : <b classname="role-title">Committee member</b>
+                }
+                <p className="name-quals"><b>{props.member.name}</b> {props.member.qualifications}</p>
             </Col>
         )
     }
@@ -38,7 +41,6 @@ export default function Committee(){
                 <Row className="committee-members">
                     {
                         committee.committee.map(member => {
-                            console.log(member)
                             return <CommitteeMember key={"key-" + member.name} member={member} />
                         })
                     }
