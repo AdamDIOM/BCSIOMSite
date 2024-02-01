@@ -22,7 +22,7 @@ export default function Committee(){
                 <img src={`/img/committee/${(props.member.imgname !== "") ? props.member.imgname : "NoPic"}.png`} alt={"headshot of " + props.member.imgname} className="committee-headshot"/>
                 {(props.member.role !== "")
                 ? <h2 className="role-title">{props.member.role}</h2>
-                : <b classname="role-title">Committee member</b>
+                : <p classname="role-title"><b>Committee member</b></p>
                 }
                 <p className="name-quals"><b>{props.member.name}</b> {props.member.qualifications}</p>
             </Col>
