@@ -20,7 +20,7 @@ export default function Committee(){
         return (
             <Col xs={12} md={6} lg={4} key={props.key} className="text-center committee-member">
                 <img src={`/img/committee/${(props.member.imgname !== "") ? props.member.imgname : "NoPic"}.png`} alt={"headshot of " + props.member.imgname} className="committee-headshot"/>
-                {(props.member.role != "")
+                {(props.member.role !== "")
                 ? <h2 className="role-title">{props.member.role}</h2>
                 : <b classname="role-title">Committee member</b>
                 }
