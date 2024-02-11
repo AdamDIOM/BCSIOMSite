@@ -14,7 +14,7 @@ export default function Footer(){
                     <a href="/events"><b>BCS IOM Events</b></a>
                 </Col>
                 <Col md={3} sm={6} xs={12} className="footerCol">
-                    <a href="https://www.bcs.org/legal-and-privacy-notices/data-privacy-notice/"><b>BCS UK Data Privacy Notice</b></a>
+                    <a href="/privacy"><b>Data Privacy Notice</b></a>
                 </Col>
                 <Col md={2} className="d-s-none"></Col>
                 <Col md={8} s={12}>
