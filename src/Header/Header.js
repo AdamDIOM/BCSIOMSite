@@ -35,7 +35,7 @@ export default function Header(){
                                     BCS events
                                 </NavDropdown.Item>
                                 <NavDropdown.Item href="/get-online">
-                                    Get Online Centre
+                                    Coming soon...
                                 </NavDropdown.Item>
                                 <NavDropdown.Divider />
                                 <NavDropdown.Item href="/iom-tech">
