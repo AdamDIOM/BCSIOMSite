@@ -48,7 +48,7 @@ h1 {
 
 .main{
   background-color: var(--background);
-  min-height:71vh;
+  min-height:calc(100vh - 15vh - 24vh);
   text-align: center;
   max-width:100%;
   width:auto;
