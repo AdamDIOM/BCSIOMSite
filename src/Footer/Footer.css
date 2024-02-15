@@ -16,3 +16,15 @@
     color:white;
     text-decoration: none;
 }
+
+.chamber-logo-container{
+    object-fit: cover;
+}
+
+.chamber-logo {
+    max-width:100%;
+    max-height:10vh;
+    filter:drop-shadow(0px 0px 10px);
+    margin-left:auto;
+    margin-right:auto;
+}
