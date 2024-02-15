@@ -5,7 +5,7 @@
 .committee-headshot{
     margin-top:20px;
     width: 20vw;
-    max-width:100%;
+    max-width:30vh;
     object-fit:cover;
     border-radius: 50px;
     height: 30vh;
@@ -22,7 +22,7 @@
 }
 @media only screen and (max-width: 768px){
     .committee-headshot{
-        width: 300px;
+        width: 250px;
         background-color: pink;
     }
 }
