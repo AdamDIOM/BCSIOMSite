@@ -1,4 +1,4 @@
-import { Accordion, Button, Col, Container, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import "./Privacy.css";
 import React from "react";
 
