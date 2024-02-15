@@ -26,7 +26,7 @@ export default function Footer(){
                 
                 <Col md={2} className="d-s-none"></Col>
                 <Col md={8} s={12}>
-                    <p>BCS (Isle of Man) Limited | Isle of Man Registered Company: number 111766C | Directors: K H Roosen, G Jones, O Cutajar, A C Drummond, S R R Wilson | Registered office: 4 Abbots Way, Abbotswood, Ballasalla, Isle of Man. IM9 3EQ | Isle of Man Registered Charity: number 997 | The name BCS, and any logos are property of BCS, The Chartered Institute for IT and are used with permission.</p>
+                    <p>BCS (Isle of Man) Limited | Isle of Man Registered Company: number 111766C | Directors: K H Roosen, G Jones, O Cutajar, A C Drummond, S R R Wilson | Registered office: 4 Abbots Way, Abbotswood, Ballasalla, Isle of Man. IM9 3EQ | Isle of Man Registered Charity: number 997 | ICO Registration Number R004117 | The name BCS, and any logos are property of BCS, The Chartered Institute for IT and are used with permission.</p>
                 </Col>
             </Row>
     )
