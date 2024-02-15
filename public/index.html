@@ -34,6 +34,26 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>BCS Isle of Man</title>
+
+    <!-- Circle button -->
+    <script>
+      (function (w,d,s,o,f,js,fjs) {
+          w['circleWidget']=o;w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
+          js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
+          js.id = o; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
+      }(window, document, 'script', 'mw', 'https://bcs-offshore.circle.so/external/widget.js'));
+     
+      mw('init', {
+        community_public_uid: 'c1e2126b',
+        brand_color: '{"dark"=>"#228527", "light"=>"#228527"}'
+      });
+     
+      // Optional: pass in a default space slug and/or post slug
+      // mw('setDefaults', {
+      //   space_slug: '',
+      //   post_slug: ''
+      // });
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
