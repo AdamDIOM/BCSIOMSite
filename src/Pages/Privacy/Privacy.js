@@ -7,6 +7,8 @@ export default function Privacy(){
         <React.Fragment>
             <Container className="content">
                 <h1>Privacy Notice</h1>
+                <h2>Cookies Notice</h2>
+                <p>We do not use any cookies within this site</p>
             </Container>
         </React.Fragment>
     )
