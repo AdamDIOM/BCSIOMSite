@@ -28,7 +28,18 @@ export default function Home(){
                 </Row>
             </Container>
             <Row className="row-highlight">
-                <Accordion flush>
+                <Col md={2}></Col>
+                <Col md={6} className="text-left">
+                    <h1>Start your membership journey</h1>
+                    <p>We'll be with you at every step in your amazing career.</p>
+                </Col>
+                <Col md={4} className="d-flex flex-wrap align-items-center">
+                    <Button variant="dark" size="lg" className="mx-auto mx-md-0 d-block join-button" href="https://www.bcs.org/membership-and-registrations/become-a-member/" target="_blank" rel="noreferrer">Join us</Button>
+                </Col>
+                
+            </Row>
+            <Container className="mt-4">
+                <Accordion>
                     <Accordion.Item eventKey="0">
                         <Accordion.Header>Get involved</Accordion.Header>
                         <Accordion.Body>
@@ -38,7 +49,7 @@ export default function Home(){
                         </Accordion.Body>
                     </Accordion.Item>
                 </Accordion>
-            </Row>
+            </Container>
         </React.Fragment>
     )
 }

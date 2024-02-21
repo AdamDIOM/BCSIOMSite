@@ -21,12 +21,19 @@
     content: "";
 }
 
-.accordion .btn{
+.accordion .btn, .join-button{
     background-color: var(--primary-25);
     color:black;
     border-color:var(--primary-75);
 }
 
-.accordion .btn:hover{
+.accordion .btn:hover, .join-button:hover{
     background-color:var(--primary-50);
+    border-color:var(--primary-75);
+    color:black;
+}
+
+.accordion .btn:focus, .join-button:focus, .accordion .btn:active{
+    background-color: white;
+    color:black;
 }
