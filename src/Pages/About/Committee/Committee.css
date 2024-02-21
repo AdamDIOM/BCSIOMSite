@@ -62,3 +62,12 @@ a{
     margin-top:20px;
     clear:both;
 }
+
+.linkedin-logo{
+    height:20px;
+    opacity:70%;
+}
+
+.linkedin-logo:hover{
+    opacity:100%;
+}

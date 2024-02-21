@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 
 export default function Committee(){
     document.title = "The Committee | BCS Isle of Man Section"
-    const [committee, setCommittee] = useState({committee:[{"name":"sample","role":"sample","qualifications":"sample","imgname":"sample"}]})
+    const [committee, setCommittee] = useState({committee:[{"name":"sample","role":"sample","qualifications":"sample","imgname":"sample","linkedin":"sample"}]})
 
     async function getCommittee() {
         await fetch("https://raw.githubusercontent.com/AdamDIOM/BCSIOMSite/main/public/data/committee.json")
@@ -16,7 +16,7 @@ export default function Committee(){
     }, [])
 
     function CommitteeMember(props) {
-        console.log(props.member.imgname)
+        console.log(props.member)
         return (
             <Col xs={12} md={6} lg={4} key={props.key} className="text-center committee-member">
                 <img src={`/img/committee/${(props.member.imgname !== "") ? props.member.imgname : "NoPic"}.png`} alt={"headshot of " + props.member.imgname} className="committee-headshot"/>
@@ -24,7 +24,13 @@ export default function Committee(){
                 ? <h2 className="role-title">{props.member.role}</h2>
                 : <p classname="role-title"><b>Committee member</b></p>
                 }
-                <p className="name-quals"><b>{props.member.name}</b> {props.member.qualifications}</p>
+                <p className="name-quals"><b>{props.member.name}</b> {props.member.qualifications}
+                {(props.member.linkedin !== undefined && props.member.linkedin !== "") ?
+                    <a href={`https://linkedin.com/in/${props.member.linkedin}/`} target="_blank" rel="noreferrer">
+                        <img src="/img/linkedin-logo.png" alt="linkedin logo" className="linkedin-logo" />
+                    </a>
+                : <React.Fragment />}
+                </p>
             </Col>
         )
     }

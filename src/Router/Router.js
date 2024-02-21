@@ -5,6 +5,7 @@ import Events from "../Pages/WhatsOn/Events/Events";
 import Committee from "../Pages/About/Committee/Committee";
 import ComingSoon from "../Pages/Error/ComingSoon/ComingSoon";
 import Privacy from "../Pages/Privacy/Privacy";
+import AboutUs from "../Pages/About/AboutUs/AboutUs";
 
 export default function Router(){
     return(
@@ -14,7 +15,7 @@ export default function Router(){
                 <Route path="/" element={<Home />} />
                 <Route path="/events" element={<Events />} />
                 <Route path="/committee" element={<Committee />} />
-                <Route path="/about-us" element={<ComingSoon />} />
+                <Route path="/about-us" element={<AboutUs />} />
                 <Route path="/get-online" element={<ComingSoon />} />
                 <Route path="/iom-tech" element={<ComingSoon />} />
                 <Route path="/privacy" element={<Privacy />} />
