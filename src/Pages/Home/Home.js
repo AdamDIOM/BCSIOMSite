@@ -38,7 +38,7 @@ export default function Home(){
                 </Col>
                 
             </Row>
-            <Container className="mt-4">
+            {/* <Container className="mt-4">
                 <Accordion>
                     <Accordion.Item eventKey="0">
                         <Accordion.Header>Get involved</Accordion.Header>
@@ -49,7 +49,7 @@ export default function Home(){
                         </Accordion.Body>
                     </Accordion.Item>
                 </Accordion>
-            </Container>
+            </Container> */}
         </React.Fragment>
     )
 }
