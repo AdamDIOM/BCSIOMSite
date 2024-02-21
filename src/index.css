@@ -1,7 +1,6 @@
 body {
   margin: 0;
-  font-family: 'BCSfont', 'Arial',
-    sans-serif;
+  font-family: 'BCSfont', 'Arial', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -75,4 +74,8 @@ h1 {
   --secondary-25: #BFD9CC;
   --secondary-50: #7FB299;
   --secondary-75: #408C66;
+}
+
+b {
+  font-family: 'BCSbold', 'Arial', sans-serif;
 }
