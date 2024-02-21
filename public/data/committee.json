@@ -4,7 +4,8 @@
             "name" : "Kurt Roosen",
             "role" : "Chair",
             "qualifications" : "FBCS",
-            "imgname" : "Kurt"
+            "imgname" : "Kurt",
+            "linkedin" : "kurtroosen"
         },
         {
             "name" : "Graeme Jones",
@@ -22,7 +23,8 @@
             "name" : "Adam Drummond",
             "role" : "Secretary",
             "qualifications" : "",
-            "imgname" : "Adam"
+            "imgname" : "Adam",
+            "linkedin" : "adam-drummond"
         },
         {
             "name" : "Ken Quayle",
