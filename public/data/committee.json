@@ -11,13 +11,15 @@
             "name" : "Graeme Jones",
             "role" : "Vice Chair",
             "qualifications" : "PRINCE2 MBCS",
-            "imgname" : ""
+            "imgname" : "",
+            "linkedin" : ""
         },
         {
             "name" : "Owen Cutajar",
             "role" : "Treasurer",
             "qualifications" : "FBCS",
-            "imgname" : ""
+            "imgname" : "",
+            "linkedin" : ""
         },
         {
             "name" : "Adam Drummond",
@@ -30,43 +32,50 @@
             "name" : "Ken Quayle",
             "role" : "Membership Secretary",
             "qualifications" : "CITP MBCS",
-            "imgname" : ""
+            "imgname" : "",
+            "linkedin" : ""
         },
         {
             "name" : "Steve Wilson",
             "role" : "Inclusion Officer",
             "qualifications" : "MBCS",
-            "imgname" : ""
+            "imgname" : "",
+            "linkedin" : ""
         },
         {
             "name" : "Hazel Alvarado",
             "role" : "Publicity Officer",
             "qualifications" : "",
-            "imgname" : "Hazel"
+            "imgname" : "Hazel",
+            "linkedin" : ""
         },
         {
             "name" : "Sarah Ennett",
             "role" : "Early Careers Advocate",
             "qualifications" : "MBCS",
-            "imgname" : "Sarah"
+            "imgname" : "Sarah",
+            "linkedin" : ""
         },
         {
             "name" : "Vacant",
             "role" : "Events Coordinator",
             "qualifications" : "",
-            "imgname" : ""
+            "imgname" : "",
+            "linkedin" : ""
         },
         {
             "name" : "Jeff Ames",
             "role" : "",
             "qualifications" : "",
-            "imgname" : "Jeff"
+            "imgname" : "Jeff",
+            "linkedin" : ""
         },
         {
             "name" : "Steve Beesley",
             "role" : "",
             "qualifications" : "",
-            "imgname" : ""
+            "imgname" : "",
+            "linkedin" : ""
         }
     ]
 }
