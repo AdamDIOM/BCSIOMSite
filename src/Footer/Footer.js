@@ -31,8 +31,7 @@ export default function Footer(){
                     <p>Isle of Man Registered Company: number 111766C</p>
                     <p>Directors: K H Roosen, G Jones, O Cutajar, A C Drummond, S R R Wilson</p>
                     <p>Registered office: 4 Abbots Way, Abbotswood, Ballasalla, Isle of Man. IM9 3EQ</p>
-                    <p>Isle of Man Registered Charity: number 997</p>
-                    <p>ICO Registration Number R004117</p>
+                    <p>Isle of Man Registered Charity: number 997 | ICO Registration Number R004117</p>
                     <p>The name BCS, and any logos are property of BCS, The Chartered Institute for IT and are used with permission.</p>
                 </Col>
                 <Col md={4} className="circle-link d-flex flex-wrap align-items-center">
