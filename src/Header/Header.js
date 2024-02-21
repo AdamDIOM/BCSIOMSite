@@ -7,7 +7,7 @@ import Navbar from 'react-bootstrap/Navbar';
 export default function Header(){
     return(
         <Row className="header">
-            <Navbar expand="md">
+            <Navbar expand="lg">
                 <Container fluid>
                     <Navbar.Brand href="/">
                         <img className="header-logo" src="img/logo.png" alt="BCS Isle of Man Section logo" />
