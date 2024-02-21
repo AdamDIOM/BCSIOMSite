@@ -19,6 +19,8 @@
 
 .chamber-logo-container{
     object-fit: cover;
+    align-items:center;
+    justify-content: center;
 }
 
 .chamber-logo {
