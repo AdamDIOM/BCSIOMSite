@@ -43,12 +43,13 @@ export default function Header(){
                                 </NavDropdown.Item>
                             </NavDropdown></b>
                             <Nav.Link href="https://www.bcs.org/membership-and-registrations/become-a-member/"><b>Become a member</b></Nav.Link>
+                            <Nav.Link className="login-button"><b>Login to MyBCS</b></Nav.Link>
                         </Nav>
 
-                        <Nav className="justify-content-end flex-grow-1 bottom-nav d-md-none">
-                            <Nav.Link href="https://bcs.org"><b>BCS UK</b></Nav.Link>
-                            <Nav.Link href="https://www.bcs.org/membership-and-registrations/become-a-member/bcs-code-of-conduct/"><b>BCS Code of Conduct</b></Nav.Link>
-                            <p className="bottom-text">BCS (Isle of Man) Ltd is a registered company on the Isle of Man (number 111766C) and an Isle of Man registered charity (number 997)</p>
+                        <Nav className="justify-content-end flex-grow-1 bottom-nav">
+                            <Nav.Link className="d-md-none" href="https://bcs.org"><b>BCS UK</b></Nav.Link>
+                            <Nav.Link className="d-md-none" href="https://www.bcs.org/membership-and-registrations/become-a-member/bcs-code-of-conduct/"><b>BCS Code of Conduct</b></Nav.Link>
+                            <p className="bottom-text d-md-none">BCS (Isle of Man) Limited, registered company number 111766C and registered charity number 997.</p>
                         </Nav>
                     </Navbar.Offcanvas>
                 </Container>

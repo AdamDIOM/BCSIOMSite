@@ -75,3 +75,9 @@
 .navbar-toggler{
     border:none;
 }
+
+.login-button{
+    background-color: var(--secondary);
+    color:white;
+    font-family: 'BCSbold', 'Arial'
+}
