@@ -20,13 +20,13 @@ export default function Footer(){
                         </Col>
                     </Row>
                 </Col>
-                <Col md={{span: 4, order:1}} xs={{span: 12, order: 2}} className="chamber-logo-container d-flex flex-wrap align-items-center mb-md-0 mb-4">
+                <Col md={{span: 6, order:1}} xs={{span: 12, order: 2}} className="chamber-logo-container d-flex flex-wrap align-items-center mb-md-0 mb-4">
                     <a href="https://www.iomchamber.org.im/" target="_blank" rel="noreferrer">
                         <img className="chamber-logo mx-auto d-block" src="img/proud-chamber-member.png" alt="BCS IOM is a proud member of the Isle of Man Chamber of Commerce." />
                     </a>
                 </Col>
                 
-                <Col md={{span: 4, order: 2}} xs={{span: 12, order: 3}} className="footer-texts">
+                <Col md={{span: 12, order: 3}} xs={{span: 12, order: 3}} className="footer-texts">
                     <p>BCS (Isle of Man) Limited</p>
                     <p>Isle of Man Registered Company: number 111766C</p>
                     <p>Directors: K H Roosen, G Jones, O Cutajar, A C Drummond, S R R Wilson</p>
@@ -34,7 +34,7 @@ export default function Footer(){
                     <p>Isle of Man Registered Charity: number 997 | ICO Registration Number R004117</p>
                     <p>The name BCS, and any logos are property of BCS, The Chartered Institute for IT and are used with permission.</p>
                 </Col>
-                <Col md={{span: 4, order: 2}} xs={{order:1}} className="circle-link d-flex flex-wrap align-items-center mb-md-0 mb-sm-4">
+                <Col md={{span: 6, order: 2}} xs={{order:1}} className="circle-link d-flex flex-wrap align-items-center mb-md-0 mb-sm-4">
                     <div className="centre">
                         <p><b><h3>Join our Circle Community</h3></b></p>
                         <a href="https://bcs-offshore.circle.so" target="_blank" rel="noreferrer">
