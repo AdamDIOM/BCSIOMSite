@@ -1,4 +1,4 @@
-import { Accordion, Button, Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
 import "./Home.css";
 import React from "react";
 
