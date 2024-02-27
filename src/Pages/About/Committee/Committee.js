@@ -24,7 +24,7 @@ export default function Committee(){
                 ? <h2 className="role-title">{props.member.role}</h2>
                 : <p classname="role-title"><b>Committee member</b></p>
                 }
-                <p className="name-quals"><b>{props.member.name}</b> {props.member.qualifications}
+                <p className="name-quals"><span><b>{props.member.name}</b> {props.member.qualifications} </span>
                 {(props.member.linkedin !== undefined && props.member.linkedin !== "") ?
                     <a href={`https://linkedin.com/in/${props.member.linkedin}/`} target="_blank" rel="noreferrer">
                         <img src="/img/linkedin-logo.png" alt="linkedin logo" className="linkedin-logo" />
