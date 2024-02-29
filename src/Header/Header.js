@@ -43,7 +43,7 @@ export default function Header(){
                                 </NavDropdown.Item>
                             </NavDropdown></b>
                             <Nav.Link href="https://www.bcs.org/membership-and-registrations/become-a-member/"><b>Become a member</b></Nav.Link>
-                            <Nav.Link className="login-button"><b>Login to MyBCS</b></Nav.Link>
+                            <Nav.Link href="https://mybcs.bcs.org/" className="login-button"><b>Login to MyBCS</b></Nav.Link>
                         </Nav>
 
                         <Nav className="justify-content-end flex-grow-1 bottom-nav">
