@@ -47,9 +47,9 @@ export default function Header(){
                         </Nav>
 
                         <Nav className="justify-content-end flex-grow-1 bottom-nav">
-                            <Nav.Link className="d-md-none" href="https://bcs.org"><b>BCS UK</b></Nav.Link>
-                            <Nav.Link className="d-md-none" href="https://www.bcs.org/membership-and-registrations/become-a-member/bcs-code-of-conduct/"><b>BCS Code of Conduct</b></Nav.Link>
-                            <p className="bottom-text d-md-none">BCS (Isle of Man) Limited, registered company number 111766C and registered charity number 997.</p>
+                            <Nav.Link className="d-lg-none" href="https://bcs.org"><b>BCS UK</b></Nav.Link>
+                            <Nav.Link className="d-lg-none" href="https://www.bcs.org/membership-and-registrations/become-a-member/bcs-code-of-conduct/"><b>BCS Code of Conduct</b></Nav.Link>
+                            <p className="bottom-text d-lg-none">BCS (Isle of Man) Limited, registered company number 111766C and registered charity number 997.</p>
                         </Nav>
                     </Navbar.Offcanvas>
                 </Container>
