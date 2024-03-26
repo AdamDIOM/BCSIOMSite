@@ -136,24 +136,15 @@ export default function Privacy(){
                     <Accordion.Item eventKey="3">
                         <Accordion.Header><h2>Who we share your personal data with</h2></Accordion.Header>
                         <Accordion.Body>
-                            <p>We may share your personal data with other members of staff within BCS and BCS (Isle of Man) Limited when you provide us with your information. We take all reasonable steps to ensure that our staff protect your personal data and are aware of their information security obligations. We limit access to your personal data to those who have a business need to know it.</p>
+                            <p>We may share your personal data with other members of staff within BCS and Committee Members within BCS (Isle of Man) Limited when you provide us with your information. We take all reasonable steps to ensure that our staff protect your personal data and are aware of their information security obligations. We limit access to your personal data to those who have a business need to know it.</p>
 
                             <h3>Third Parties</h3>
                             <p>We may also share your personal data with trusted third parties including:</p>
                             <ul>
-                                <li>Service providers contracted to us in connection with the provision of the products and services; this includes the service provider which runs election and voting at our annual general meeting;</li>
-                                <li>Relevant Regulators such as Ofqual, CCEA Regulation; Department for Education (DfE), Ofsted, Qualifications Wales, ESFA, NSAR and BSI;</li>
-                                <li>RM Results who process data on behalf of DfE;</li>
-                                <li>Other Awarding Bodies such as ISTQB, APMG and EXIN;</li>
-                                <li>Disciplinary Investigation Panels and Appeals Panels; *</li>
-                                <li>Complainants;</li>
-                                <li>BCS CEO;</li>
-                                <li>Our insurers;</li>
-                                <li>External and internal lawyers and/or specialist advisors</li>
+                                <li>Service providers engaged and contracted to us in connection with the provision of the products and services;</li>
                                 <li>BCS (Isle of Man) Limited may also be bound to share data with the police or other law enforcement agencies in the event of a crime;</li>
                                 <li>Fulfilment houses.</li>
                             </ul>
-                            <p>*Further information can be found in the Disciplinary Regulations which is available upon request.</p>
                             <p>We will ensure there is a contract in place with the categories of recipients listed above which include obligations in relation to the confidentiality, security and lawful processing of any personal data shared with them. We do not allow our third-party service providers to use your personal data for their own purposes and only permit them to process your personal data for specified purposes and in accordance with our instructions.</p>
 
                             <h3>Protecting information outside of the UK</h3>
