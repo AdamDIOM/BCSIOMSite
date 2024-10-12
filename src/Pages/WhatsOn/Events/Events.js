@@ -85,7 +85,7 @@ export default function Events(){
                                 <a href={item.eventlink} className="text-decoration-none">
                                     <div className="event-block-inner px-3 py-2 rounded">
                                         <h2 className="text-center">{item.title}</h2>
-                                        <b>{item.date}</b>
+                                        <b>{new Date(item.date).toLocaleDateString()}</b>
                                     </div>
                                 </a>
                             </Col>
@@ -111,7 +111,7 @@ export default function Events(){
                                     <a href={item.eventlink} className="text-decoration-none">
                                         <div className="event-block-inner px-3 py-2 rounded">
                                             <h2 className="text-center">{item.title}</h2>
-                                            <b>{item.date}</b>
+                                            <b>{new Date(item.date).toLocaleDateString()}</b>
                                         </div>
                                     </a>
                                 </Col>
