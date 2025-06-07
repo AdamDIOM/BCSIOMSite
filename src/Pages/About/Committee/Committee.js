@@ -41,6 +41,7 @@ export default function Committee(){
                 <Row className="Intro">
                     <Col xs={12}>
                         <h1>BCS Isle of Man Committee</h1>
+                        <h2>**This page is due to be updated shortly following recent committee changes**</h2>
                         <p>Here are the members of the Isle of Man international section committee.</p>
                     </Col>
                 </Row>
