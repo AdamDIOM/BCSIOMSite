@@ -29,8 +29,8 @@ export default function Footer(){
                 <Col xl={{span: 8, order: 2}} md={{span: 12, order: 3}} xs={{span: 12, order: 3}} className="footer-texts">
                     <p>BCS (Isle of Man) Limited</p>
                     <p>Isle of Man Registered Company: number 111766C</p>
-                    <p>Directors: K H Roosen, G Jones, O Cutajar, A C Drummond, S R R Wilson</p>
-                    <p>Registered office: 4 Abbots Way, Abbotswood, Ballasalla, Isle of Man. IM9 3EQ</p>
+                    <p>Directors: A C Drummond, A S Beesley, G Jones, K Quayle, S R R Wilson</p>
+                    <p>Registered office: 57 Ard Reayrt, Laxey, Isle of Man. IM4 7QQ</p>
                     <p>Isle of Man Registered Charity: number 997 | ICO Registration Number R004117</p>
                     <p>The name BCS, and any logos are property of BCS, The Chartered Institute for IT and are used with permission.</p>
                 </Col>
