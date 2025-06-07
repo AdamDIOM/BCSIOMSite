@@ -15,7 +15,7 @@ export default function Home(){
                 <Row>
                     <Col md={{span:4, order:1}} xs={{span:12, order:2}} className="d-flex align-self-center justify-content-md-end justify-content-center">
                         <div className="chair-headshot">
-                            <img src="/img/committee/Kurt.png" alt="Kurt Roosen, Chair, BCS Isle of Man" />
+                            <img src="/img/committee/Ken.png" alt="Ken Quayle, Chair, BCS Isle of Man" />
                         </div>
                     </Col>
                     <Col md={{span:8, order:1}} xs={{span:12, order:2}} className="align-self-center">
@@ -23,7 +23,7 @@ export default function Home(){
                     <p>We were established as a BCS international section in July 2004 to support our thriving e-business sector.</p>
                     <p>If you live on, or are a regular visitor to, the Isle of Man, why not come along to one of our events to meet other IT professionals and hear about the latest technology and business developments on the island.</p>
                     <p>We welcome members and non-members alike, and we’re always interested in new ideas and suggestions for future events. If you’d like to present at our next event or contribute in any other way, then please do get in touch.</p>
-                    <p><b>Kurt Roosen, Chair</b></p>
+                    <p><b>Ken Quayle, Chair</b></p>
                     </Col>
                 </Row>
             </Container>
