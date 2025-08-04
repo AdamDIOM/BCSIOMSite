@@ -15,7 +15,7 @@ export default function Home(){
                 <Row>
                     <Col md={{span:4, order:1}} xs={{span:12, order:2}} className="d-flex align-self-center justify-content-md-end justify-content-center">
                         <div className="chair-headshot">
-                            <img src="/img/committee/Ken.png" alt="Ken Quayle, Chair, BCS Isle of Man" />
+                            <img src="/img/Chair.png" alt="Ken Quayle, Chair, BCS Isle of Man" />
                         </div>
                     </Col>
                     <Col md={{span:8, order:1}} xs={{span:12, order:2}} className="align-self-center">
