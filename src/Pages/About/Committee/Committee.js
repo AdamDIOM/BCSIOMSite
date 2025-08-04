@@ -11,17 +11,15 @@ export default function Committee(){
         await fetch("https://script.googleusercontent.com/macros/echo?user_content_key=AehSKLj0L5z9_BWxdJbW5jhtmSr75ANOYa5guo1MeXwNV5dzyTFCnO6a-gmlAPNhWz_5nzg65TfybFeqFtwWpZuULilxtCGk_tCL2DqVSFn7hIv-x0qYZFg4-FBPcXxIKLoqUA_I4dFKUUFq-pa_TE6E8_3eisafjGQY6jw41lwe4d1EiAnljU5PLQbS-6hgiexsXZhrS0PTEHfppSkF0mJ7gkxPFD0RF10rmN6VHVesHC0DhwHXmABeixaNwmZC9nIHLdQQ95mvIU6_2TSuoCssjtqIqpBSFA&lib=MQv3XoP1cugRDhwiCx8aDz8_gJC8hqBcP")
         .then((response) => response.json())
         .then((data) => setCommittee(data))
-        console.log(committee)
         setLoading(false)
     }
     useEffect(() => {
         getCommittee();
-    })
+    }, [])
 
-    function CommitteeMember({member, k}) {
-        console.log(member)
+    function CommitteeMember({member}) {
         return (
-            <Col xs={12} md={6} lg={4} key={k} className="text-center committee-member">
+            <Col xs={12} md={6} lg={4} className="text-center committee-member">
                 <img src={(member.imgid !== "") ? `https://lh3.googleusercontent.com/d/${member.imgid}` : "/img/committee/NoPic.png"} alt={"headshot of " + member.name} className="committee-headshot"/>
                 {(member.role !== "")
                 ? <h2 className="role-title">{member.role}</h2>
@@ -53,18 +51,15 @@ export default function Committee(){
                             <h2>Loading...</h2>
                         </div>  
                         <div className="d-flex justify-content-center align-items-center w-100 h-100">
-                            <div class="spinner-border" role="status"></div>
+                            <div className="spinner-border" role="status"></div>
                         </div>             
                     </>      
                 ) : (
                     <>
-
-                    
                         <Row className="committee-members">
                             {
                                 committee.map(member => {
-                                    console.log(member.name)
-                                    return <CommitteeMember k={member.name} member={member} />
+                                    return <CommitteeMember key={member.name} member={member} />
                                 })
                             }
                         </Row>
