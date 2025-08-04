@@ -20,7 +20,7 @@ export default function Committee(){
     function CommitteeMember({member}) {
         return (
             <Col xs={12} md={6} lg={4} className="text-center committee-member">
-                <img src={(member.imgid !== "") ? `https://lh3.googleusercontent.com/d/${member.imgid}` : "/img/committee/NoPic.png"} alt={"headshot of " + member.name} className="committee-headshot"/>
+                <img src={(member.imgid !== "") ? `https://lh3.googleusercontent.com/d/${member.imgid}` : "/img/NoPic.png"} alt={"headshot of " + member.name} className="committee-headshot"/>
                 {(member.role !== "")
                 ? <h2 className="role-title">{member.role}</h2>
                 : <p className="role-title"><b>Committee member</b></p>
