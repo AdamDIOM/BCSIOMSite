@@ -16,7 +16,7 @@ export default function Committee(){
     }
     useEffect(() => {
         getCommittee();
-    }, [])
+    }, [getCommittee])
 
     function CommitteeMember({member, k}) {
         console.log(member)
