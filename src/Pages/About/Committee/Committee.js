@@ -7,7 +7,7 @@ export default function Committee(){
     const [committee, setCommittee] = useState([{"name":"name","role":"sample","qualifications":"sample","imgid":"sample","linkedin":"sample"}])
     const [loading, setLoading] = useState(true)
 
-    async function getCommittee() {
+    const getCommittee = async() => {
         await fetch("https://script.googleusercontent.com/macros/echo?user_content_key=AehSKLj0L5z9_BWxdJbW5jhtmSr75ANOYa5guo1MeXwNV5dzyTFCnO6a-gmlAPNhWz_5nzg65TfybFeqFtwWpZuULilxtCGk_tCL2DqVSFn7hIv-x0qYZFg4-FBPcXxIKLoqUA_I4dFKUUFq-pa_TE6E8_3eisafjGQY6jw41lwe4d1EiAnljU5PLQbS-6hgiexsXZhrS0PTEHfppSkF0mJ7gkxPFD0RF10rmN6VHVesHC0DhwHXmABeixaNwmZC9nIHLdQQ95mvIU6_2TSuoCssjtqIqpBSFA&lib=MQv3XoP1cugRDhwiCx8aDz8_gJC8hqBcP")
         .then((response) => response.json())
         .then((data) => setCommittee(data))
@@ -16,7 +16,7 @@ export default function Committee(){
     }
     useEffect(() => {
         getCommittee();
-    }, [getCommittee])
+    }, [])
 
     function CommitteeMember({member, k}) {
         console.log(member)
